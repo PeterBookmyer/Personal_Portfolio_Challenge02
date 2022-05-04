@@ -1,93 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Peter Bookmyer Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="sytlesheet.css" />
-    <link rel="stylesheet" href="resetstyle.css" />
+    <!-- link to icon library -->
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap"
       rel="stylesheet"
     />
+    <title>Peter Bookmyer Portfolio</title>
   </head>
-  <header class="header">
-    <h1>Pe<span class="ter">ter</span> Book<span class="myer">myer</span></h1>
-    <h2>Portfolio</h2>
-    <nav>
-      <div>
+  <!-- header and nav section -->
+  <body>
+    <header>
+      <h1>Peter Bookmyer Portfolio</h1>
+      <h2>"Listen to the River Sing Sweet Songs....to Rock My Soul"</h2>
+      <nav>
         <ul>
-          <li><a href="#"> About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#mywork">My Work</a>
+          </li>
+          <li>
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="#contactme">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!-- This is the My Work Section -->
+        <h1 id="mywork">My Work</h1>
+        <ul class="leftsection">
+          <li>
+            <img src="Screen Shot 1.jpg" alt="Website Design and Layout" />
+            <p>
+              My first challenge in Bootcamp was refactoring of an existing
+              company website. We were provide existing HTML and CSS and were
+              tasked with refactoring it by adding semantic elements, fixing
+              broken links, linking it to existing style sheet, and providing
+              comments to make understanding the code that much easier.
+            </p>
+          </li>
+          <li>
+            <img src="Screen Shot 2.png" alt="Dark Screen with CSS Coding" />
+            <p>
+              CSS has also been a large part of the first half of bootcamp. I am
+              proficient at the basics including linking and creating
+              stylesheets, rule and rulesets. I understand the basic structure
+              around selectors - universal, ID, Class, element. I am also
+              proficient at flexbox and media quaries. We've also recently
+              learned about variables and psuedo properties.
+            </p>
+          </li>
+          <li>
+            <img src="Screen Shot 3.jpeg" alt="Computer Screens on a Desk" />
+            <p>
+              My previous work experience is mainly in the Software and Tech
+              Sales Markets, with a little bit of Publishing experience as well.
+              I spent 15 years as an Outside Sales Representative, meeting face
+              to face with clients, understanding challenges, and scoping
+              potential solutions with a vast team of support staff. I
+              understand the complexities of a technical work environment in
+              today's day and age.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <div id="aboutme" class="aboutme">
+        <h2>About Me</h2>
+        <img src="About Me.jpeg" alt="Picture of Me" />
+        <p>
+          Born and raised in Michigan, to parents, Allison and Mike, I grew up
+          playing in the forests, lakes, and sports fields. Having attended
+          Brother Rice High school, played Lacrosse and swan, I quickly made my
+          exodus to the calling of the Mountains in Colorado. I attended
+          University of Denver and majored in Communications and Marketing. I
+          enjoy Rock Climbing, Trail Running, and Live Music. I have a dog named
+          Huckleberry, who is a 12 year old Brittany Spaniel. I live in
+          Sunnyside neighborhood of Denver. My favorite foods include tacos,
+          sushi, and barbecue.
+        </p>
+      </div>
+    </main>
+    <footer id="contactme">
+      <div class="contact">
+        <ul>
+          <li>Pete.Bookmyer@gmail.com</li>
+          <li>720-202-0596</li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Github</a></li>
         </ul>
       </div>
-    </nav>
-  </header>
-  <body>
-    <img
-      src="images/905DF303-B055-4E07-A583-8061B5D0F602_1_102_o.jpeg"
-      alt="mountain sunset"
-    />
-    <article class="aboutme">
-      <h2>About Me</h2>
-      <p>
-        Born in Michigan. Went to University of Denver. I have a dog named
-        Huckleberry. I like Rock Climbing, Trail Running, and live music. My
-        favorite band is Grateful Dead. Work is experience is mostly in tech
-        sales. I spent 15 years in corporate sales working for various sw, and
-        technical support companies
-      </p>
-      <div class="image1">
-        <img
-          src="images/8A9A17EC-388A-4687-BA85-E8BCBC0CEB87_1_105_c.jpeg"
-          alt="image of me"
-        />
-      </div>
-    </article>
-    <div></div>
-    <article class="mywork">
-      <h2>My Work</h2>
-      <p>
-        I have experience in HTML, CSS, Javascript, Github, Gitlab, and the
-        Terminal. I worked in Sw sales for 15 years as a Territory
-        Representative / Account Executive. My responsibilities included weekly,
-        monthly, quarterly forecasting, working with a vast channel network,
-        running a full team of support staff including technical and business
-        development.
-      </p>
-      <div class="image2">
-        <img src="images/IMG_6270.jpeg" alt="image of my workstation" />
-      </div>
-    </article>
-    <div></div>
-    <article class="contactme">
-      <h2>Contact Me</h2>
-      <p>Pete.bookmyer@gmail.com 720-202-0596 pbookie12 IG</p>
-      <div class="image3">
-        <img
-          src="images/67036951812__DBDF3FF3-5422-4C14-9C74-08A6A4A32A73.jpeg"
-          alt="contact me"
-        />
-      </div>
-    </article>
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
-      <input type="submit" value="Submit" />
-    </form>
-    <footer class="footer">
-      <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Github</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">LinkedIn</a></li>
-      </ul>
     </footer>
   </body>
 </html>
